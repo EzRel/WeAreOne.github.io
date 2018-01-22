@@ -1,0 +1,113 @@
+body {
+  background: gray no-repeat center center fixed;
+  background-size: cover;
+  font-family: Roboto;
+}
+
+/*
+http://wallpapersin4k.net/wp-content/uploads/2017/02/League-of-Legends-Wallpapers-2.jpg
+.blur {
+  background: url('http://wallpapersin4k.net/wp-content/uploads/2017/02/League-of-Legends-Wallpapers-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  filter: blur(13px);
+  position: absolute;
+  height: 400px;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+}*/
+
+.blur {
+  background: gray no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  filter: blur(13px);
+  height: 500px;
+  width: 600px;
+}
+
+.widget {
+  z-index: 1;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.input-login {
+  background: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  outline: none;
+  border-bottom-color: hsla(0, 0%, 100%, .1);
+  color: #fff;
+  transition: .2s linear;
+  width: 250px;
+  font-size: 16px;
+}
+
+.input-login:hover {
+  border-bottom-color: #fff;
+}
+
+.text {
+  color: #fff;
+}
+
+#notif-bar {
+  z-index: 10;
+  position: fixed;
+  bottom: 5px;
+  left: 5px;
+  width: 230px;
+  padding: 5px;
+}
+
+.notification {
+  z-index: 11;
+  padding: 5px;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 3px;
+  user-select: none;
+}
+
+#after-login {
+  background: #fff;
+  color: #000;
+  font-family: MontSerrat;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  transition: .2s linear;
+  z-index: 5;
+}
+
+#turnover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  transition: .2s linear;
+}
+
+#discord-recom {
+  z-index: 1001;
+}
